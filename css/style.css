@@ -29,6 +29,7 @@ body {
 form {
     width: 60%;
     margin: 0 auto;
+    background-color: var(--form-bg);
     border: 1px solid var(--headline);
     border-radius: 1rem;
 }
