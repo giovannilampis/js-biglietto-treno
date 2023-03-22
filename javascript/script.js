@@ -53,6 +53,10 @@ buttonTicket.addEventListener("click", function() {
 
     let priceRegular = tripKm * 0.21;
 
+    // prices must have a maximum of two decimal places
+
+    priceRegular = priceRegular.toFixed(2);
+
 
      // the variable "priceUnderAge" expresses the price for underage people
 
