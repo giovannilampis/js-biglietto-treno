@@ -1,0 +1,29 @@
+/* color variables */
+
+:root {
+    --body-bg: #fef6e4;
+    --form-bg: #f3d2c1;
+}
+
+/* utilities */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.debug {
+    border: 1px solid red;
+}
+
+/* general */
+
+body {
+    background-color: var(--body-bg);
+}
+
+form {
+    width: 60%;
+    margin: 0 auto;
+}

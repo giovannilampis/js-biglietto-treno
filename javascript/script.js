@@ -70,15 +70,15 @@ buttonTicket.addEventListener("click", function() {
 
     // price of the ticket for underage people
     if (age < 18) {
-        responcePrice.innerHTML = priceUnderAge;
+        responcePrice.innerHTML += priceUnderAge;
 
     // price of the ticket for retired people
     } else if (age > 64) {
-        responcePrice.innerHTML = priceRetired;
+        responcePrice.innerHTML += priceRetired;
     
     // price of the ticket for adult, non-retired people
     } else {
-        responcePrice.innerHTML = priceRegular
+        responcePrice.innerHTML += priceRegular
     }
 
     event.preventDefault();
