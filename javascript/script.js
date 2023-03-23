@@ -4,7 +4,7 @@
 
 const birthYear = document.getElementById("birth-year");
 
-// create a variable that expresses the number of kilometers that the customer wants to travel
+// create a variable that expresses the number of kilometers that the customer wants to travel for
 
 const kiloM = document.getElementById("kilometres");
 
@@ -13,17 +13,17 @@ const kiloM = document.getElementById("kilometres");
 const buttonTicket = document.getElementById("button-ticket");
 
 
-// ADD EVENT LISTENER WITH A FUNCTIOPN INDIDE
+// ADD EVENT LISTENER WITH A FUNCTION INSIDE
 buttonTicket.addEventListener("click", function() {
     
-    // the variable birth gets the customer's year of birth and converts it into a number
+    // the variable "birth" gets the customer's year of birth and converts it into a number
 
     const birth = parseInt(birthYear.value);
 
     // console.log(birth);
 
 
-    // the variable today expresses the current full date 
+    // the variable "today" expresses the current full date 
 
     let today = new Date();
 
@@ -42,7 +42,7 @@ buttonTicket.addEventListener("click", function() {
     // console.log(age);
 
 
-    // the variable tripKm gets the kilometric lenght of the customer's trip and converts it into a number
+    // the variable "tripKm" gets the kilometric lenght of the customer's trip and converts it into a number
 
     const tripKm = parseInt(kiloM.value);
 
@@ -68,7 +68,7 @@ buttonTicket.addEventListener("click", function() {
     let priceRetired = priceRegular / 100 * 60;
 
 
-    // create a variable that expresses a link with p in HTML: 
+    // createm "responcePrice", a variable that expresses a link with p in HTML: 
 
     let responcePrice = document.getElementById("responce");
 
